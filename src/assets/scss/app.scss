@@ -23,6 +23,14 @@ img{
     color: $info;
 }
 
+.bg_btn{
+    border: 3px solid $info;
+    color: $info;
+    border-radius: 30px;
+    background-color: $bg_body;
+}
+
+/* #region BannerCards */
 .yt_icon {
     width: 20%;
 }
@@ -51,3 +59,12 @@ img{
     background-color: $dark ;
     color: $light;
 }
+/* #endregion BannerCards */
+
+/* #region SoilTexture */
+.container p a{
+    color: $info;
+}
+
+
+/* #endregion SoilTexture */
