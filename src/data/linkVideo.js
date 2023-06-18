@@ -7,7 +7,7 @@ export const links = [
     },
     {
         img: "gep_usda.png",
-        title: 'Clip and Import in Google Earth',
+        title: 'Import in Google Earth',
         desc: "",
         video: "https://www.youtube.com/watch?v=o87kN5UJLm4&list=PLR8J_sq3CKNcCeYBUdOFOv8qG9CpqW892&index=2",
     }

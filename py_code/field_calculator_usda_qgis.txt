@@ -1,0 +1,14 @@
+IF("Sand_0010" >= 0 AND "Sand_0010" <= 45 AND "Clay_0010" >= 40 AND "Clay_0010" <= 100 AND "Silt_0010" >= 0 AND "Silt_0010" <= 40, 'Cl',
+IF("Sand_0010" <= 65 AND "Sand_0010" >= 45 AND "Clay_0010" >= 35 AND "Clay_0010" <= 55 AND "Silt_0010" >= 0 AND "Silt_0010" <= 20, 'SaCl',
+IF("Sand_0010" >= 0 AND "Sand_0010" <= 20 AND "Clay_0010" >= 40 AND "Clay_0010" <= 60 AND "Silt_0010" >= 40 AND "Silt_0010" <= 60, 'SiCl',
+IF("Sand_0010" >= 20 AND "Sand_0010" <= 45 AND "Clay_0010" >= 25 AND "Clay_0010" <= 40 AND "Silt_0010" >= 15 AND "Silt_0010" <= 55, 'ClLo',
+IF("Sand_0010" >= 0 AND "Sand_0010" <= 20 AND "Clay_0010" >= 25 AND "Clay_0010" <= 40 AND "Silt_0010" >= 40 AND "Silt_0010" <= 75, 'SiClLo',
+IF("Sand_0010" >= 45 AND "Sand_0010" <= 80 AND "Clay_0010" >= 20 AND "Clay_0010" <= 35 AND "Silt_0010" >= 0 AND "Silt_0010" <= 25, 'SaClLo',
+IF("Sand_0010" >= 25 AND "Sand_0010" <= 55 AND "Clay_0010" >= 5 AND "Clay_0010" <= 25 AND "Silt_0010" >= 25 AND "Silt_0010" <= 50, 'Lo',
+IF("Sand_0010" >= 85 AND "Sand_0010" <= 100 AND "Clay_0010" >= 0 AND "Clay_0010" <= 10 AND "Silt_0010" >= 0 AND "Silt_0010" <= 15, 'Sa',
+IF("Sand_0010" >= 70 AND "Sand_0010" <= 90 AND "Clay_0010" >= 0 AND "Clay_0010" <= 15 AND "Silt_0010" >= 0 AND "Silt_0010" <= 30, 'LoSa',
+IF("Sand_0010" >= 45 AND "Sand_0010" <= 85 AND "Clay_0010" >= 0 AND "Clay_0010" <= 20 AND "Silt_0010" >= 0 AND "Silt_0010" <= 50, 'SaLo',
+IF("Sand_0010" >= 0 AND "Sand_0010" <= 50 AND "Clay_0010" >= 0 AND "Clay_0010" <= 25 AND "Silt_0010" >= 50 AND "Silt_0010" <= 85, 'SiLo',
+IF("Sand_0010" >= 0 AND "Sand_0010" <= 20 AND "Clay_0010" >= 0 AND "Clay_0010" <= 15 AND "Silt_0010" >= 80 AND "Silt_0010" <= 100, 'Si',
+'No'
+))))))))))))

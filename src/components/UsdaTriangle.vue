@@ -18,7 +18,7 @@ export default {
     <div class="container my-5 txt_jumbo">
         <div class="row justify-content-center">
             <div class="col-12 col-lg-6 col-md-6 bg_item rounded-4">
-                <div class="d-flex align-items-center p-3">
+                <div class="d-flex align-items-center justify-content-between p-3">
                     <h3 class="title">USDA Triangle</h3>
                     <button class="bg_btn mx-3" @click="toggleContent">{{ showContent ? 'Hide' : 'Show' }}</button>
                 </div>
