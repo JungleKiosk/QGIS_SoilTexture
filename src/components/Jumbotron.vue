@@ -13,7 +13,6 @@ export default {
 
 
 <template>
-
     <div id="goup" class="container my-5 txt_jumbo">
         <div class="row justify-content-center ">
             <div class="col-12 col-lg-8 col-md-8 bg_item rounded-4">
@@ -32,7 +31,8 @@ export default {
                     Python shell and the field calculator. <br>
                     You can find the Python code at my
                     <a style="color: #dd99fd; text-decoration: none;"
-                        href="https://github.com/JungleKiosk/QGIS_zoning/tree/main/py_code" target="_blank">GitHub</a> page.
+                        href="https://github.com/JungleKiosk/QGIS_SoilTexture/tree/main/py_code" target="_blank">GitHub</a>
+                    page.
                     Enjoy!
                 </p>
             </div>
