@@ -21,7 +21,7 @@ export default {
                     In this project you will see using <span class="q_qgis">Q</span><span class="gis_qgis">GIS</span> and
                     the <span class="py_python">Py</span><span class="thon_python">thon</span> shell to come up with code
                     that will create a new
-                    field in the layer's attribute table. This field will contain USDA texture grades, which will be based
+                    field in the layer's attribute table. This field will contain USDA texture classes, which will be based
                     on the composition of sand, silt, and clay in the soil.<br>
                     Once you have created the new field with USDA texture classes, you will see the mapping of texture
                     classes using Voronoi polygons. Voronoi polygons divide space based on proximity to data points.<br>

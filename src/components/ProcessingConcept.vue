@@ -28,7 +28,7 @@ export default {
                         percentages as map coordinates. <br>
                         With this approach you will then be able to identify points and create intervals to identify the
                         included area; i.e. the soil texture class. <br>
-                        The image below shows the graphic identification of one of the weaving classes according to the
+                        The image below shows the graphic identification one of the texture classes according to the
                         following logic:
                     </p>
                     <p class="text-center">

@@ -8,6 +8,7 @@ import BannerCards from './components/BannerCards.vue';
 import SoilTexture from './components/SoilTexture.vue';
 import UsdaTriangle from './components/UsdaTriangle.vue';
 import ProcessingConcept from './components/ProcessingConcept.vue';
+import Voronoi from './components/Voronoi.vue';
 import AppFooter from './components/AppFooter.vue';
 
 export default {
@@ -15,7 +16,7 @@ export default {
     return {
     };
   },
-  components: { AppHeader, Jumbotron, BannerCards, SoilTexture, UsdaTriangle, ProcessingConcept, AppFooter },
+  components: { AppHeader, Jumbotron, BannerCards, SoilTexture, UsdaTriangle, ProcessingConcept, Voronoi, AppFooter },
   computed: {
     linksData() {
       return links;
@@ -32,6 +33,7 @@ export default {
   <SoilTexture></SoilTexture>
   <UsdaTriangle></UsdaTriangle>
   <ProcessingConcept></ProcessingConcept>
+  <Voronoi></Voronoi>
   <AppFooter></AppFooter>
 
 </template>
